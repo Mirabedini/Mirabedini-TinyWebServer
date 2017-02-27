@@ -1,21 +1,8 @@
-Date: 2015-03-06 14:58:18
+Date: 2016-02-29 14:18:18
 Arduino TinyWebServer
 
 A small web server for Arduino.
 
-Check out this video demonstrating what you can do with it:
-
-http://www.youtube.com/watch?v=qZXKk6nCYuM
-
-You can read up on TinyWebServer's history here:
-
-http://www.webweavertech.com/ovidiu/weblog/archives/000484.html
-
-http://www.webweavertech.com/ovidiu/weblog/archives/000477.html
-
-The library is licensed under the terms of LGPL 2.1. Which means
-you're free to use it in your projects (including commercial ones) as
-long as you're sending back the changes you make to the library.
 
 External dependencies
 ====================
