@@ -21,7 +21,7 @@
 // There is an overall size increase of about 340 bytes in code size
 // when the debugging is enabled and debugging lines are preceded by 'TWS:'
 
-#define DEBUG false
+//#define DEBUG false
 
 // 10 milliseconds read timeout
 #define READ_TIMEOUT 10
@@ -572,7 +572,11 @@ TinyWebServer::MimeType TinyWebServer::get_mime_type_from_filename(
   return r;
 }
 
-void TinyWebServer::send_file(SdFile& file) {
+void TinyWebServer::send_file(File& file) {
+//  while (file.available()) {
+//    write(file.read());
+//    }
+  
   size_t size;
   while ((size = file.read(buffer, sizeof(buffer))) > 0) {
     if (!client_.connected()) {

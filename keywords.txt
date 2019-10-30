@@ -1,0 +1,55 @@
+#######################################
+# Syntax Coloring Map For WiFi
+#######################################
+
+#######################################
+# Library (KEYWORD1)
+#######################################
+
+TinyWebServer	KEYWORD1	TinyWebServer
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TinyWebPutHandler	KEYWORD1	TinyWebPutHandler
+TinyWebServer	KEYWORD1	TinyWebServer
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+put_handler	KEYWORD2
+PutAction	KEYWORD2	PutAction
+HttpRequestType	KEYWORD2	HttpRequestType
+MimeType	KEYWORD2	MimeType
+PathHandler	KEYWORD2	PathHandler
+begin	KEYWORD2
+send_error_code	KEYWORD2
+send_content_type	KEYWORD2
+end_headers	KEYWORD2
+get_path	KEYWORD2
+HttpRequestType	KEYWORD2
+get_type	KEYWORD2
+get_header_value	KEYWORD2
+EthernetClient	KEYWORD2	EthernetClient
+get_client	KEYWORD2
+get_parameter_value	KEYWORD2
+process_headers	KEYWORD2
+process_parameters	KEYWORD2
+decode_url_encoded	KEYWORD2
+get_file_from_path	KEYWORD2
+get_mime_type_from_filename	KEYWORD2
+send_file	KEYWORD2
+size_t write	KEYWORD2
+should_stop_processing	KEYWORD2
+read_next_char	KEYWORD2
+get_field	KEYWORD2
+HeaderValue	KEYWORD2	HeaderValue
+get_line	KEYWORD2
+is_requested_header	KEYWORD2
+assign_header_value	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

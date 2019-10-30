@@ -13,7 +13,6 @@
 
 #include <Print.h>
 
-class SdFile;
 class TinyWebServer;
 
 namespace TinyWebPutHandler {
@@ -138,7 +137,7 @@ public:
   //
   // This is mainly an optimization to reuse the internal static
   // buffer used by this class, which saves us some RAM.
-  void send_file(SdFile& file);
+  void send_file(File& file);
 
   // These methods write directly in the response stream of the
   // connected client
